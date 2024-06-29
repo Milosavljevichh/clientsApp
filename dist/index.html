@@ -4,10 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <link href="../node_modules/beercss/dist/cdn/beer.css" rel="stylesheet">
+    <script type="module" src="../node_modules/beercss/dist/cdn/beer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="responsive">
+
+        <article id="home-card" class="no-padding border round">
+            <a href="clients.html" class="full-width">
+                <img class="responsive medium" src="imgs/pattern1.jpg">
+                <div class="absolute bottom left right padding bottom-shadow bottom-round white-text">
+                <article id="bar-background" class="small-blur">
+                    <h5 class="small center-align bold">CLIENTS</h5>
+                </article>
+                </div>
+            </a>
+        </article>
+        <article id="home-card" class="no-padding border round">
+            <img class="responsive medium" src="imgs/pattern2.jpg">
+            <div class="absolute bottom left right padding bottom-shadow bottom-round white-text">
+            <article id="bar-background" class="small-blur">
+                <h5 class="small center-align bold">SCHEDULES</h5>
+            </article>
+            </div>
+        </article>
+        <article id="home-card" class="no-padding border round">
+            <img class="responsive medium" src="imgs/pattern3.jpg">
+            <div class="absolute bottom left right padding bottom-shadow bottom-round white-text">
+            <article id="bar-background" class="small-blur">
+                <h5 class="small center-align bold">ANALYTICS</h5>
+            </article>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="fixed">
+        <nav class="tabbed">
+            <a href="index.html" class="active">
+              <i>home</i>
+              <span>Home</span>
+            </a>
+            <a href="clients.html">
+              <i>group</i>
+              <span>Clients</span>
+            </a>
+            <a>
+              <i>schedule</i>
+              <span>Schedules</span>
+            </a>
+            <a>
+              <i>analytics</i>
+              <span>Statistics</span>
+            </a>
+          </nav>
+    </footer>
 </body>
 </html>
