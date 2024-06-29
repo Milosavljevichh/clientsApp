@@ -20,11 +20,26 @@ main {
 }
 
 footer {
+    position: relative;
+    padding-top: 20px;
     min-block-size: 4rem !important;
+}
+footer::after{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    top: -25px;
+    left: 0;
+    background: rgb(147,145,133);
+    background: linear-gradient(0deg, rgba(147,145,133,1) 10%, rgba(0,212,255,0) 100%);
 }
 
 /* HOME CARD CSS */
+
 #home-card{
+    margin-top: 20px;
+    margin-bottom: 40px;
     border-width: 0.1rem;
     background-color: var(--outline);
 }
@@ -38,7 +53,6 @@ footer {
 }
 
 #bar-background{
-    margin-top: 30px;
     padding: 0.7rem;
     border-radius: 100px;
 }
@@ -47,6 +61,14 @@ footer {
 .client-card {
     margin-top: 30px;
     background-color: var(--primary) !important;
+}
+
+.client-card, .client-card img {
+    filter: drop-shadow(0px 4px 10px #858585);
+}
+
+.client-card img{
+    border-bottom-width: 0.15rem !important;
 }
 
 .container{
@@ -58,6 +80,19 @@ footer {
 .container a {
     display: flex;
     gap: 12px;
+}
+
+#delete-client-btn{
+    background-color: #A91D3A !important;
+    color: var(--primary);
+}
+
+#edit-client-btn{
+    color: var(--primary);
+}
+
+.circle{
+    background-color: var(--outline);
 }
 
 /* TABBED MENU CSS */
