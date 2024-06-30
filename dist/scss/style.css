@@ -1,0 +1,119 @@
+:root {
+  --primary:#EEEDEB;
+  --on-primary:#E6B9A6;
+  --primary-container:#2F3645;
+  --darkest:#939185;
+  --outline:#2F3645;
+}
+
+#home-card {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-width: 0.1rem;
+  background-color: var(--outline);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.bottom-shadow {
+  background-image: linear-gradient(to top, rgba(18, 18, 18, 0.708), transparent);
+}
+
+#bar-background {
+  padding: 0.7rem;
+  border-radius: 100px;
+}
+
+.client-card {
+  margin-top: 30px;
+  background-color: var(--primary) !important;
+}
+
+.client-card, .client-card img {
+  filter: drop-shadow(0px 4px 10px #858585);
+}
+
+.client-card img {
+  border-bottom-width: 0.15rem !important;
+}
+
+.container {
+  margin: 18px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container a {
+  display: flex;
+  gap: 12px;
+}
+
+#delete-client-btn {
+  background-color: #A91D3A !important;
+  color: var(--primary);
+}
+
+#edit-client-btn {
+  color: var(--primary);
+}
+
+.circle {
+  background-color: var(--outline);
+}
+
+.tabbed {
+  overflow-y: hidden;
+  margin-bottom: 25px;
+}
+
+.tabbed a {
+  color: var(--primary-container);
+  font-weight: bold;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tabbed::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tabbed {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.active {
+  color: var(--primary) !important;
+}
+
+body {
+  background-color: var(--darkest);
+  overflow-x: hidden;
+}
+
+main {
+  padding-top: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  position: relative;
+  padding-top: 20px;
+  min-block-size: 4rem !important;
+}
+
+footer::after {
+  content: "";
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  top: -25px;
+  left: 0;
+  background: rgb(147, 145, 133);
+  background: linear-gradient(0deg, rgb(147, 145, 133) 10%, rgba(0, 212, 255, 0) 100%);
+}/*# sourceMappingURL=style.css.map */

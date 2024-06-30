@@ -1,0 +1,20 @@
+
+#home-card{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-width: 0.1rem;
+    background-color: var(--outline);
+}
+
+.full-width{
+    width: 100%;
+}
+
+.bottom-shadow{
+    background-image: linear-gradient(to top, rgba(18, 18, 18, 0.708), transparent);
+}
+
+#bar-background{
+    padding: 0.7rem;
+    border-radius: 100px;
+}

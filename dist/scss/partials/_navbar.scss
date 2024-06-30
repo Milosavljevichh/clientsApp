@@ -1,0 +1,25 @@
+
+.tabbed {
+    overflow-y: hidden;
+    margin-bottom: 25px;
+}
+
+.tabbed a {
+    color: var(--primary-container);
+    font-weight: bold;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tabbed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .tabbed {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.active {
+    color: var(--primary) !important;
+}

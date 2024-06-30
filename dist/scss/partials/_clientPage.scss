@@ -1,0 +1,37 @@
+
+.client-card {
+    margin-top: 30px;
+    background-color: var(--primary) !important;
+}
+
+.client-card, .client-card img {
+    filter: drop-shadow(0px 4px 10px #858585);
+}
+
+.client-card img{
+    border-bottom-width: 0.15rem !important;
+}
+
+.container{
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a {
+    display: flex;
+    gap: 12px;
+}
+
+#delete-client-btn{
+    background-color: #A91D3A !important;
+    color: var(--primary);
+}
+
+#edit-client-btn{
+    color: var(--primary);
+}
+
+.circle{
+    background-color: var(--outline);
+}
