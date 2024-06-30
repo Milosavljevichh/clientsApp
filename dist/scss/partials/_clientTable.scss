@@ -1,0 +1,8 @@
+thead tr{
+    background-color: $outline;
+    color: $primary;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: $on-primary;
+}

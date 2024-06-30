@@ -1,7 +1,7 @@
 
 .client-card {
     margin-top: 30px;
-    background-color: var(--primary) !important;
+    background-color: $primary !important;
 }
 
 .client-card, .client-card img {
@@ -25,13 +25,13 @@
 
 #delete-client-btn{
     background-color: #A91D3A !important;
-    color: var(--primary);
+    color: $primary;
 }
 
 #edit-client-btn{
-    color: var(--primary);
+    color: $primary;
 }
 
 .circle{
-    background-color: var(--outline);
+    background-color: $outline;
 }

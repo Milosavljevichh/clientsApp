@@ -2,10 +2,20 @@
 @import "partials/homepage";
 @import "partials/clientPage";
 @import "partials/navbar";
+@import "partials/clientTable";
+
+@font-face {
+    font-family: main;
+    src: url(../fonts/Exo_2/Exo2-VariableFont_wght.ttf);
+}
+
+*:not(i) {
+    font-family: main !important;
+}
 
 
 body{
-    background-color: var(--darkest);
+    background-color: $darkest;
     overflow-x: hidden;
 }
 

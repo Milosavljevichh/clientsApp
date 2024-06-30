@@ -1,16 +1,8 @@
-:root {
-  --primary:#EEEDEB;
-  --on-primary:#E6B9A6;
-  --primary-container:#2F3645;
-  --darkest:#939185;
-  --outline:#2F3645;
-}
-
 #home-card {
   margin-top: 20px;
   margin-bottom: 40px;
   border-width: 0.1rem;
-  background-color: var(--outline);
+  background-color: #2F3645;
 }
 
 .full-width {
@@ -28,7 +20,7 @@
 
 .client-card {
   margin-top: 30px;
-  background-color: var(--primary) !important;
+  background-color: #EEEDEB !important;
 }
 
 .client-card, .client-card img {
@@ -52,15 +44,15 @@
 
 #delete-client-btn {
   background-color: #A91D3A !important;
-  color: var(--primary);
+  color: #EEEDEB;
 }
 
 #edit-client-btn {
-  color: var(--primary);
+  color: #EEEDEB;
 }
 
 .circle {
-  background-color: var(--outline);
+  background-color: #2F3645;
 }
 
 .tabbed {
@@ -69,7 +61,7 @@
 }
 
 .tabbed a {
-  color: var(--primary-container);
+  color: #2F3645;
   font-weight: bold;
 }
 
@@ -85,11 +77,29 @@
 }
 
 .active {
-  color: var(--primary) !important;
+  color: #EEEDEB !important;
+  background-color: #2F3645 !important;
+}
+
+thead tr {
+  background-color: #2F3645;
+  color: #EEEDEB;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #E6B9A6;
+}
+
+@font-face {
+  font-family: main;
+  src: url(../fonts/Exo_2/Exo2-VariableFont_wght.ttf);
+}
+*:not(i) {
+  font-family: main !important;
 }
 
 body {
-  background-color: var(--darkest);
+  background-color: #939185;
   overflow-x: hidden;
 }
 

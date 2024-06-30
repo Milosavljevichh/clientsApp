@@ -5,7 +5,7 @@
 }
 
 .tabbed a {
-    color: var(--primary-container);
+    color: $primary-container;
     font-weight: bold;
 }
 
@@ -21,5 +21,6 @@
   }
 
 .active {
-    color: var(--primary) !important;
+    color: $primary !important;
+    background-color: $primary-container !important;
 }
